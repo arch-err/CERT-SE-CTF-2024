@@ -1,3 +1,17 @@
+# CERT-SE CTF 2024
+*Antar du vår utmaning?*
+
+*Även i år har CERT-SE en utmaning (CTF) under cybersäkerhetsmånaden. I år är temat utpressningsangrepp (ransomware). Utmaningen vänder sig till alla med it-säkerhetsintresse.*
+
+*<scenario>*
+*En fiktiv organisation har blivit drabbad av ett utpressningsangrepp. De har lyckats få igång en reservkanal för kommunikation och har lyckats komma åt delar av sin infrastruktur.*
+
+*Kan du hitta alla flaggorna?*
+*</scenario>*
+
+*I .zip-filen nedan finns en nätverksdump (PCAP) som innehåller totalt nio stycken flaggor. Åtta av dessa har formatet ”CTF[STRING]” och en har formatet [STRING] (lägg till CTF framför så svaret blir i formatet CTF[STRING]). Allt för att lösa flaggorna finns i nätverksdumpen och kan göras utan koppling till internet. Det finns alltså inga ledtrådar i eventuella referenser online.*
+
+
 # Challenges
 
 **Flags:** (9/9)
