@@ -1,0 +1,743 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dfxml xmloutputversion='1.0'>
+  <metadata 
+  xmlns='http://afflib.org/tcpflow/' 
+  xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' 
+  xmlns:dc='http://purl.org/dc/elements/1.1/'>
+    <dc:type>Feature Extraction</dc:type>
+  </metadata>
+  <creator version='1.0'>
+    <program>TCPFLOW</program>
+    <version>1.6.1</version>
+    <build_environment>
+      <compiler>12.2.0 (12.2.0)</compiler>
+      <CPPFLAGS>-I/usr/local/include  -I/usr/local/include -DUTC_OFFSET=+0000</CPPFLAGS>
+      <CFLAGS>-g -march=x86-64 -mtune=generic -O3 -pipe -fno-plt -fexceptions         -Wp,-D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security         -fstack-clash-protection -fcf-protection -flto=auto -MD -Wpointer-arith -Wmissing-declarations -Wmissing-prototypes -Wshadow -Wwrite-strings -Wcast-align -Waggregate-return -Wbad-function-cast -Wcast-qual -Wundef -Wredundant-decls -Wdisabled-optimization -Wfloat-equal -Wmultichar -Wc++-compat -Wmissing-noreturn -Wall -Wstrict-prototypes -MD -D_FORTIFY_SOURCE=2 -Wpointer-arith -Wmissing-declarations -Wmissing-prototypes -Wshadow -Wwrite-strings -Wcast-align -Waggregate-return -Wbad-function-cast -Wcast-qual -Wundef -Wredundant-decls -Wdisabled-optimization -Wfloat-equal -Wmultichar -Wc++-compat -Wmissing-noreturn -Wall -Wstrict-prototypes</CFLAGS>
+      <CXXFLAGS>-g -march=x86-64 -mtune=generic -O3 -pipe -fno-plt -fexceptions         -Wp,-D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security         -fstack-clash-protection -fcf-protection -Wp,-D_GLIBCXX_ASSERTIONS -flto=auto -Wall -MD -D_FORTIFY_SOURCE=2 -Wpointer-arith -Wshadow -Wwrite-strings -Wcast-align -Wredundant-decls -Wdisabled-optimization -Wfloat-equal -Wmultichar -Wmissing-noreturn -Woverloaded-virtual -Wsign-promo -funit-at-a-time -Weffc++ -Wno-address-of-packed-member</CXXFLAGS>
+      <LDFLAGS>-L/usr/local/lib -Wl,-O1,--sort-common,--as-needed,-z,relro,-z,now -flto=auto -L/usr/local/lib</LDFLAGS>
+      <LIBS>-lcap-ng -lpcap -lcairo -lfontconfig -lfreetype -lbz2 -lpixman-1 -lexpat -lcrypto -lsqlite3 -lssl -lcrypto -ldl -lz </LIBS>
+      <compilation_date>2022-11-02T00:55:52</compilation_date>
+      <library name="boost" version="108000"/>
+      <library name="sqlite" version="3.39.4" source_id="2022-09-29 15:55:41 a29f9949895322123f7c38fbe94c649a9d6e6c9cd0c3b41c96d694552f26alt1"/>
+      <git commit="tcpflow-1.4.0beta1-367-gc98938b-dirty"/>
+    </build_environment>
+    <execution_environment>
+      <os_sysname>Linux</os_sysname>
+      <os_release>6.10.10-arch1-1</os_release>
+      <os_version>#1 SMP PREEMPT_DYNAMIC Thu, 12 Sep 2024 17:21:02 +0000</os_version>
+      <host>zpctr</host>
+      <arch>x86_64</arch>
+      <command_line>command line to be provided</command_line>
+      <uid>1000</uid>
+      <username>archerr</username>
+      <start_time>2024-10-05T18:04:36Z</start_time>
+    </execution_environment>
+  </creator>
+  <configuration>
+  </configuration>
+  <tdelta>0</tdelta>
+  <configuration>
+    <fileobject>
+      <filename>023.049.024.214.00443-192.168.200.052.49381</filename>
+      <filesize>7049</filesize>
+      <tcpflow startime='2024-08-29T17:13:09.563885Z' endtime='2024-08-29T17:13:09.616905Z' mac_daddr='00:0c:29:b0:0c:00' mac_saddr='76:ac:b9:3a:1e:56' family='2' src_ipn='23.49.24.214' dst_ipn='192.168.200.52' srcport='443' dstport='49381' packets='12' out_of_order_count='2' len='7721' />
+    </fileobject>
+    <fileobject>
+      <filename>023.049.024.214.00443-192.168.200.052.49381c1</filename>
+      <filesize>6</filesize>
+      <tcpflow startime='2024-08-29T17:13:09.616905Z' endtime='2024-08-29T17:13:09.627294Z' mac_daddr='00:0c:29:b0:0c:00' mac_saddr='76:ac:b9:3a:1e:56' family='2' src_ipn='23.49.24.214' dst_ipn='192.168.200.52' srcport='443' dstport='49381' packets='3' out_of_order_count='2' len='180' />
+    </fileobject>
+    <fileobject>
+      <filename>142.250.074.036.00443-192.168.200.052.49390</filename>
+      <filesize>5354</filesize>
+      <tcpflow startime='2024-08-29T17:13:22.111156Z' endtime='2024-08-29T17:13:32.121389Z' mac_daddr='00:0c:29:b0:0c:00' mac_saddr='76:ac:b9:3a:1e:56' family='2' src_ipn='142.250.74.36' dst_ipn='192.168.200.52' srcport='443' dstport='49390' packets='9' out_of_order_count='3' len='5870' />
+    </fileobject>
+    <fileobject>
+      <filename>142.250.074.036.00443-192.168.200.052.49391</filename>
+      <filesize>5355</filesize>
+      <tcpflow startime='2024-08-29T17:13:22.121172Z' endtime='2024-08-29T17:13:32.136986Z' mac_daddr='00:0c:29:b0:0c:00' mac_saddr='76:ac:b9:3a:1e:56' family='2' src_ipn='142.250.74.36' dst_ipn='192.168.200.52' srcport='443' dstport='49391' packets='9' out_of_order_count='3' len='5871' />
+    </fileobject>
+    <fileobject>
+      <filesize>0</filesize>
+      <tcpflow startime='2024-08-29T17:13:55.638828Z' endtime='2024-08-29T17:13:55.669805Z' mac_daddr='76:ac:b9:3a:1e:56' mac_saddr='00:0c:29:b0:0c:00' family='2' src_ipn='192.168.200.52' dst_ipn='151.101.85.91' srcport='49414' dstport='443' packets='4' len='228' />
+    </fileobject>
+    <fileobject>
+      <filesize>0</filesize>
+      <tcpflow startime='2024-08-29T17:13:55.640657Z' endtime='2024-08-29T17:13:55.669976Z' mac_daddr='76:ac:b9:3a:1e:56' mac_saddr='00:0c:29:b0:0c:00' family='2' src_ipn='192.168.200.52' dst_ipn='151.101.85.91' srcport='49418' dstport='443' packets='4' len='228' />
+    </fileobject>
+    <fileobject>
+      <filesize>0</filesize>
+      <tcpflow startime='2024-08-29T17:13:55.641573Z' endtime='2024-08-29T17:13:55.670036Z' mac_daddr='76:ac:b9:3a:1e:56' mac_saddr='00:0c:29:b0:0c:00' family='2' src_ipn='192.168.200.52' dst_ipn='151.101.85.91' srcport='49420' dstport='443' packets='4' len='228' />
+    </fileobject>
+    <fileobject>
+      <filesize>0</filesize>
+      <tcpflow startime='2024-08-29T17:13:55.641107Z' endtime='2024-08-29T17:13:55.670077Z' mac_daddr='76:ac:b9:3a:1e:56' mac_saddr='00:0c:29:b0:0c:00' family='2' src_ipn='192.168.200.52' dst_ipn='151.101.85.91' srcport='49419' dstport='443' packets='4' len='228' />
+    </fileobject>
+    <fileobject>
+      <filesize>0</filesize>
+      <tcpflow startime='2024-08-29T17:13:55.640216Z' endtime='2024-08-29T17:13:55.670661Z' mac_daddr='76:ac:b9:3a:1e:56' mac_saddr='00:0c:29:b0:0c:00' family='2' src_ipn='192.168.200.52' dst_ipn='151.101.85.91' srcport='49417' dstport='443' packets='4' len='228' />
+    </fileobject>
+    <fileobject>
+      <filename>151.101.085.091.00443-192.168.200.052.49420</filename>
+      <filesize>3890</filesize>
+      <tcpflow startime='2024-08-29T17:13:55.647222Z' endtime='2024-08-29T17:13:55.675252Z' mac_daddr='00:0c:29:b0:0c:00' mac_saddr='76:ac:b9:3a:1e:56' family='2' src_ipn='151.101.85.91' dst_ipn='192.168.200.52' srcport='443' dstport='49420' packets='9' out_of_order_count='3' len='4406' />
+    </fileobject>
+    <fileobject>
+      <filename>151.101.085.091.00443-192.168.200.052.49415</filename>
+      <filesize>3890</filesize>
+      <tcpflow startime='2024-08-29T17:13:55.643120Z' endtime='2024-08-29T17:13:55.675252Z' mac_daddr='00:0c:29:b0:0c:00' mac_saddr='76:ac:b9:3a:1e:56' family='2' src_ipn='151.101.85.91' dst_ipn='192.168.200.52' srcport='443' dstport='49415' packets='10' out_of_order_count='4' len='5408' />
+    </fileobject>
+    <fileobject>
+      <filename>151.101.085.091.00443-192.168.200.052.49418</filename>
+      <filesize>3890</filesize>
+      <tcpflow startime='2024-08-29T17:13:55.644140Z' endtime='2024-08-29T17:13:55.675252Z' mac_daddr='00:0c:29:b0:0c:00' mac_saddr='76:ac:b9:3a:1e:56' family='2' src_ipn='151.101.85.91' dst_ipn='192.168.200.52' srcport='443' dstport='49418' packets='8' out_of_order_count='2' len='4346' />
+    </fileobject>
+    <fileobject>
+      <filename>192.168.200.052.49415-151.101.085.091.00443</filename>
+      <filesize>1859</filesize>
+      <tcpflow startime='2024-08-29T17:13:55.639306Z' endtime='2024-08-29T17:13:55.675343Z' mac_daddr='76:ac:b9:3a:1e:56' mac_saddr='00:0c:29:b0:0c:00' family='2' src_ipn='192.168.200.52' dst_ipn='151.101.85.91' srcport='49415' dstport='443' packets='7' len='466' />
+    </fileobject>
+    <fileobject>
+      <filename>151.101.085.091.00443-192.168.200.052.49414</filename>
+      <filesize>3890</filesize>
+      <tcpflow startime='2024-08-29T17:13:55.643120Z' endtime='2024-08-29T17:13:55.676450Z' mac_daddr='00:0c:29:b0:0c:00' mac_saddr='76:ac:b9:3a:1e:56' family='2' src_ipn='151.101.85.91' dst_ipn='192.168.200.52' srcport='443' dstport='49414' packets='9' out_of_order_count='3' len='4406' />
+    </fileobject>
+    <fileobject>
+      <filename>151.101.085.091.00443-192.168.200.052.49419</filename>
+      <filesize>3890</filesize>
+      <tcpflow startime='2024-08-29T17:13:55.647222Z' endtime='2024-08-29T17:13:55.676450Z' mac_daddr='00:0c:29:b0:0c:00' mac_saddr='76:ac:b9:3a:1e:56' family='2' src_ipn='151.101.85.91' dst_ipn='192.168.200.52' srcport='443' dstport='49419' packets='9' out_of_order_count='3' len='4406' />
+    </fileobject>
+    <fileobject>
+      <filename>151.101.085.091.00443-192.168.200.052.49417</filename>
+      <filesize>3890</filesize>
+      <tcpflow startime='2024-08-29T17:13:55.644488Z' endtime='2024-08-29T17:13:55.713232Z' mac_daddr='00:0c:29:b0:0c:00' mac_saddr='76:ac:b9:3a:1e:56' family='2' src_ipn='151.101.85.91' dst_ipn='192.168.200.52' srcport='443' dstport='49417' packets='8' out_of_order_count='2' len='4346' />
+    </fileobject>
+    <fileobject>
+      <filename>192.168.200.052.49423-192.168.200.051.00088</filename>
+      <filesize>222</filesize>
+      <tcpflow startime='2024-08-29T17:14:10.956871Z' endtime='2024-08-29T17:14:10.958325Z' mac_daddr='00:0c:29:ab:58:04' mac_saddr='00:0c:29:b0:0c:00' family='2' src_ipn='192.168.200.52' dst_ipn='192.168.200.51' srcport='49423' dstport='88' packets='4' len='450' />
+    </fileobject>
+    <fileobject>
+      <filename>192.168.200.051.00088-192.168.200.052.49423</filename>
+      <filesize>199</filesize>
+      <tcpflow startime='2024-08-29T17:14:10.957135Z' endtime='2024-08-29T17:14:10.958571Z' mac_daddr='00:0c:29:b0:0c:00' mac_saddr='00:0c:29:ab:58:04' family='2' src_ipn='192.168.200.51' dst_ipn='192.168.200.52' srcport='88' dstport='49423' packets='4' out_of_order_count='1' len='433' />
+    </fileobject>
+    <fileobject>
+      <filename>192.168.200.052.49424-192.168.200.051.00088</filename>
+      <filesize>302</filesize>
+      <tcpflow startime='2024-08-29T17:14:10.958615Z' endtime='2024-08-29T17:14:10.961072Z' mac_daddr='00:0c:29:ab:58:04' mac_saddr='00:0c:29:b0:0c:00' family='2' src_ipn='192.168.200.52' dst_ipn='192.168.200.51' srcport='49424' dstport='88' packets='4' len='530' />
+    </fileobject>
+    <fileobject>
+      <filename>192.168.200.051.00088-192.168.200.052.49424</filename>
+      <filesize>1445</filesize>
+      <tcpflow startime='2024-08-29T17:14:10.958801Z' endtime='2024-08-29T17:14:10.961300Z' mac_daddr='00:0c:29:b0:0c:00' mac_saddr='00:0c:29:ab:58:04' family='2' src_ipn='192.168.200.51' dst_ipn='192.168.200.52' srcport='88' dstport='49424' packets='4' out_of_order_count='1' len='1679' />
+    </fileobject>
+    <fileobject>
+      <filename>192.168.200.051.00088-192.168.200.052.49425</filename>
+      <filesize>1490</filesize>
+      <tcpflow startime='2024-08-29T17:14:10.961981Z' endtime='2024-08-29T17:14:10.964782Z' mac_daddr='00:0c:29:b0:0c:00' mac_saddr='00:0c:29:ab:58:04' family='2' src_ipn='192.168.200.51' dst_ipn='192.168.200.52' srcport='88' dstport='49425' packets='6' out_of_order_count='2' len='1838' />
+    </fileobject>
+    <fileobject>
+      <filename>192.168.200.051.00088-192.168.200.052.49431</filename>
+      <filesize>94</filesize>
+      <tcpflow startime='2024-08-29T17:14:14.037240Z' endtime='2024-08-29T17:14:14.038442Z' mac_daddr='00:0c:29:b0:0c:00' mac_saddr='00:0c:29:ab:58:04' family='2' src_ipn='192.168.200.51' dst_ipn='192.168.200.52' srcport='88' dstport='49431' packets='5' out_of_order_count='2' len='388' />
+    </fileobject>
+    <fileobject>
+      <filename>fe80::f786:f9ae:ab5d:43c9.49430-fe80::dcf6:cc94:c4f2:82c2.00445</filename>
+      <filesize>1068</filesize>
+      <tcpflow startime='2024-08-29T17:14:14.015907Z' endtime='2024-08-29T17:14:14.156346Z' mac_daddr='a4:97:b1:f0:c8:fb' mac_saddr='00:0c:29:b0:0c:00' family='10' src_ipn='fe80::f786:f9ae:ab5d:43c9' dst_ipn='fe80::dcf6:cc94:c4f2:82c2' srcport='49430' dstport='445' packets='7' len='1598' />
+    </fileobject>
+    <fileobject>
+      <filename>fe80::f786:f9ae:ab5d:43c9.49432-fe80::dcf6:cc94:c4f2:82c2.00445</filename>
+      <filesize>1013</filesize>
+      <tcpflow startime='2024-08-29T17:14:14.177616Z' endtime='2024-08-29T17:14:14.206108Z' mac_daddr='a4:97:b1:f0:c8:fb' mac_saddr='00:0c:29:b0:0c:00' family='10' src_ipn='fe80::f786:f9ae:ab5d:43c9' dst_ipn='fe80::dcf6:cc94:c4f2:82c2' srcport='49432' dstport='445' packets='6' len='1469' />
+    </fileobject>
+    <fileobject>
+      <filename>fe80::f786:f9ae:ab5d:43c9.49433-fe80::dcf6:cc94:c4f2:82c2.00445</filename>
+      <filesize>1013</filesize>
+      <tcpflow startime='2024-08-29T17:14:14.220842Z' endtime='2024-08-29T17:14:14.238057Z' mac_daddr='a4:97:b1:f0:c8:fb' mac_saddr='00:0c:29:b0:0c:00' family='10' src_ipn='fe80::f786:f9ae:ab5d:43c9' dst_ipn='fe80::dcf6:cc94:c4f2:82c2' srcport='49433' dstport='445' packets='6' len='1469' />
+    </fileobject>
+    <fileobject>
+      <filename>fe80::f786:f9ae:ab5d:43c9.49435-fe80::dcf6:cc94:c4f2:82c2.00445</filename>
+      <filesize>1013</filesize>
+      <tcpflow startime='2024-08-29T17:14:16.374733Z' endtime='2024-08-29T17:14:16.421005Z' mac_daddr='a4:97:b1:f0:c8:fb' mac_saddr='00:0c:29:b0:0c:00' family='10' src_ipn='fe80::f786:f9ae:ab5d:43c9' dst_ipn='fe80::dcf6:cc94:c4f2:82c2' srcport='49435' dstport='445' packets='6' len='1469' />
+    </fileobject>
+    <fileobject>
+      <filename>fe80::f786:f9ae:ab5d:43c9.49436-fe80::dcf6:cc94:c4f2:82c2.00445</filename>
+      <filesize>1013</filesize>
+      <tcpflow startime='2024-08-29T17:14:16.432195Z' endtime='2024-08-29T17:14:16.458500Z' mac_daddr='a4:97:b1:f0:c8:fb' mac_saddr='00:0c:29:b0:0c:00' family='10' src_ipn='fe80::f786:f9ae:ab5d:43c9' dst_ipn='fe80::dcf6:cc94:c4f2:82c2' srcport='49436' dstport='445' packets='6' len='1469' />
+    </fileobject>
+    <fileobject>
+      <filename>fe80::f786:f9ae:ab5d:43c9.49437-fe80::dcf6:cc94:c4f2:82c2.00445</filename>
+      <filesize>1013</filesize>
+      <tcpflow startime='2024-08-29T17:14:16.470721Z' endtime='2024-08-29T17:14:16.490398Z' mac_daddr='a4:97:b1:f0:c8:fb' mac_saddr='00:0c:29:b0:0c:00' family='10' src_ipn='fe80::f786:f9ae:ab5d:43c9' dst_ipn='fe80::dcf6:cc94:c4f2:82c2' srcport='49437' dstport='445' packets='6' len='1469' />
+    </fileobject>
+    <fileobject>
+      <filename>fe80::f786:f9ae:ab5d:43c9.49438-fe80::dcf6:cc94:c4f2:82c2.00445</filename>
+      <filesize>1013</filesize>
+      <tcpflow startime='2024-08-29T17:14:16.502160Z' endtime='2024-08-29T17:14:16.525549Z' mac_daddr='a4:97:b1:f0:c8:fb' mac_saddr='00:0c:29:b0:0c:00' family='10' src_ipn='fe80::f786:f9ae:ab5d:43c9' dst_ipn='fe80::dcf6:cc94:c4f2:82c2' srcport='49438' dstport='445' packets='6' len='1469' />
+    </fileobject>
+    <fileobject>
+      <filename>fe80::f786:f9ae:ab5d:43c9.49439-fe80::dcf6:cc94:c4f2:82c2.00445</filename>
+      <filesize>1013</filesize>
+      <tcpflow startime='2024-08-29T17:14:16.544469Z' endtime='2024-08-29T17:14:16.561408Z' mac_daddr='a4:97:b1:f0:c8:fb' mac_saddr='00:0c:29:b0:0c:00' family='10' src_ipn='fe80::f786:f9ae:ab5d:43c9' dst_ipn='fe80::dcf6:cc94:c4f2:82c2' srcport='49439' dstport='445' packets='6' len='1469' />
+    </fileobject>
+    <fileobject>
+      <filename>fe80::f786:f9ae:ab5d:43c9.49440-fe80::dcf6:cc94:c4f2:82c2.00445</filename>
+      <filesize>1013</filesize>
+      <tcpflow startime='2024-08-29T17:14:16.569745Z' endtime='2024-08-29T17:14:16.588227Z' mac_daddr='a4:97:b1:f0:c8:fb' mac_saddr='00:0c:29:b0:0c:00' family='10' src_ipn='fe80::f786:f9ae:ab5d:43c9' dst_ipn='fe80::dcf6:cc94:c4f2:82c2' srcport='49440' dstport='445' packets='6' len='1469' />
+    </fileobject>
+    <fileobject>
+      <filename>192.168.200.051.00088-192.168.200.052.49443</filename>
+      <filesize>100</filesize>
+      <tcpflow startime='2024-08-29T17:14:16.951461Z' endtime='2024-08-29T17:14:16.952735Z' mac_daddr='00:0c:29:b0:0c:00' mac_saddr='00:0c:29:ab:58:04' family='2' src_ipn='192.168.200.51' dst_ipn='192.168.200.52' srcport='88' dstport='49443' packets='5' out_of_order_count='2' len='394' />
+    </fileobject>
+    <fileobject>
+      <filename>fe80::f786:f9ae:ab5d:43c9.49442-fe80::dcf6:cc94:c4f2:82c2.00080</filename>
+      <filesize>1187</filesize>
+      <tcpflow startime='2024-08-29T17:14:16.933167Z' endtime='2024-08-29T17:14:16.984958Z' mac_daddr='a4:97:b1:f0:c8:fb' mac_saddr='00:0c:29:b0:0c:00' family='10' src_ipn='fe80::f786:f9ae:ab5d:43c9' dst_ipn='fe80::dcf6:cc94:c4f2:82c2' srcport='49442' dstport='80' packets='7' len='1717' />
+    </fileobject>
+    <fileobject>
+      <filename>fe80::dcf6:cc94:c4f2:82c2.00080-fe80::f786:f9ae:ab5d:43c9.49442</filename>
+      <filesize>2407</filesize>
+      <tcpflow startime='2024-08-29T17:14:16.936399Z' endtime='2024-08-29T17:14:16.992996Z' mac_daddr='00:0c:29:b0:0c:00' mac_saddr='a4:97:b1:f0:c8:fb' family='10' src_ipn='fe80::dcf6:cc94:c4f2:82c2' dst_ipn='fe80::f786:f9ae:ab5d:43c9' srcport='80' dstport='49442' packets='7' len='2937' />
+    </fileobject>
+    <fileobject>
+      <filename>fe80::f786:f9ae:ab5d:43c9.49444-fe80::dcf6:cc94:c4f2:82c2.00445</filename>
+      <filesize>1013</filesize>
+      <tcpflow startime='2024-08-29T17:14:17.002940Z' endtime='2024-08-29T17:14:17.028930Z' mac_daddr='a4:97:b1:f0:c8:fb' mac_saddr='00:0c:29:b0:0c:00' family='10' src_ipn='fe80::f786:f9ae:ab5d:43c9' dst_ipn='fe80::dcf6:cc94:c4f2:82c2' srcport='49444' dstport='445' packets='6' len='1469' />
+    </fileobject>
+    <fileobject>
+      <filename>fe80::f786:f9ae:ab5d:43c9.49445-fe80::dcf6:cc94:c4f2:82c2.00445</filename>
+      <filesize>1013</filesize>
+      <tcpflow startime='2024-08-29T17:14:17.039889Z' endtime='2024-08-29T17:14:17.061618Z' mac_daddr='a4:97:b1:f0:c8:fb' mac_saddr='00:0c:29:b0:0c:00' family='10' src_ipn='fe80::f786:f9ae:ab5d:43c9' dst_ipn='fe80::dcf6:cc94:c4f2:82c2' srcport='49445' dstport='445' packets='6' len='1469' />
+    </fileobject>
+    <fileobject>
+      <filename>fe80::dcf6:cc94:c4f2:82c2.00080-fe80::f786:f9ae:ab5d:43c9.49441</filename>
+      <filesize>220</filesize>
+      <tcpflow startime='2024-08-29T17:14:16.809759Z' endtime='2024-08-29T17:14:19.820056Z' mac_daddr='00:0c:29:b0:0c:00' mac_saddr='a4:97:b1:f0:c8:fb' family='10' src_ipn='fe80::dcf6:cc94:c4f2:82c2' dst_ipn='fe80::f786:f9ae:ab5d:43c9' srcport='80' dstport='49441' packets='4' len='528' />
+    </fileobject>
+    <fileobject>
+      <filename>fe80::f786:f9ae:ab5d:43c9.49441-fe80::dcf6:cc94:c4f2:82c2.00080</filename>
+      <filesize>129</filesize>
+      <tcpflow startime='2024-08-29T17:14:16.797159Z' endtime='2024-08-29T17:14:19.820257Z' mac_daddr='a4:97:b1:f0:c8:fb' mac_saddr='00:0c:29:b0:0c:00' family='10' src_ipn='fe80::f786:f9ae:ab5d:43c9' dst_ipn='fe80::dcf6:cc94:c4f2:82c2' srcport='49441' dstport='80' packets='6' len='585' />
+    </fileobject>
+    <fileobject>
+      <filename>192.168.200.052.49421-192.168.200.051.00135</filename>
+      <filesize>328</filesize>
+      <tcpflow startime='2024-08-29T17:14:10.953896Z' endtime='2024-08-29T17:14:21.026043Z' mac_daddr='00:0c:29:ab:58:04' mac_saddr='00:0c:29:b0:0c:00' family='2' src_ipn='192.168.200.52' dst_ipn='192.168.200.51' srcport='49421' dstport='135' packets='6' len='676' />
+    </fileobject>
+    <fileobject>
+      <filename>192.168.200.051.00135-192.168.200.052.49421</filename>
+      <filesize>286</filesize>
+      <tcpflow startime='2024-08-29T17:14:10.954428Z' endtime='2024-08-29T17:14:21.026340Z' mac_daddr='00:0c:29:b0:0c:00' mac_saddr='00:0c:29:ab:58:04' family='2' src_ipn='192.168.200.51' dst_ipn='192.168.200.52' srcport='135' dstport='49421' packets='6' out_of_order_count='2' len='800' />
+    </fileobject>
+    <fileobject>
+      <filename>204.079.197.219.00443-192.168.200.052.49387</filename>
+      <filesize>6675</filesize>
+      <tcpflow startime='2024-08-29T17:13:20.281858Z' endtime='2024-08-29T17:14:24.217295Z' mac_daddr='00:0c:29:b0:0c:00' mac_saddr='76:ac:b9:3a:1e:56' family='2' src_ipn='204.79.197.219' dst_ipn='192.168.200.52' srcport='443' dstport='49387' packets='16' out_of_order_count='5' len='7593' />
+    </fileobject>
+    <fileobject>
+      <filename>204.079.197.219.00443-192.168.200.052.49392</filename>
+      <filesize>6675</filesize>
+      <tcpflow startime='2024-08-29T17:13:22.899579Z' endtime='2024-08-29T17:14:24.217674Z' mac_daddr='00:0c:29:b0:0c:00' mac_saddr='76:ac:b9:3a:1e:56' family='2' src_ipn='204.79.197.219' dst_ipn='192.168.200.52' srcport='443' dstport='49392' packets='17' out_of_order_count='6' len='9107' />
+    </fileobject>
+    <fileobject>
+      <filename>192.168.200.051.49667-192.168.200.052.49422</filename>
+      <filesize>1024</filesize>
+      <tcpflow startime='2024-08-29T17:14:10.956358Z' endtime='2024-08-29T17:14:41.026005Z' mac_daddr='00:0c:29:b0:0c:00' mac_saddr='00:0c:29:ab:58:04' family='2' src_ipn='192.168.200.51' dst_ipn='192.168.200.52' srcport='49667' dstport='49422' packets='10' out_of_order_count='3' len='1728' />
+    </fileobject>
+    <fileobject>
+      <filename>192.168.200.052.49449-192.168.200.051.00088</filename>
+      <filesize>209</filesize>
+      <tcpflow startime='2024-08-29T17:14:41.823457Z' endtime='2024-08-29T17:14:41.824783Z' mac_daddr='00:0c:29:ab:58:04' mac_saddr='00:0c:29:b0:0c:00' family='2' src_ipn='192.168.200.52' dst_ipn='192.168.200.51' srcport='49449' dstport='88' packets='4' len='437' />
+    </fileobject>
+    <fileobject>
+      <filename>192.168.200.051.00088-192.168.200.052.49449</filename>
+      <filesize>172</filesize>
+      <tcpflow startime='2024-08-29T17:14:41.823724Z' endtime='2024-08-29T17:14:41.824980Z' mac_daddr='00:0c:29:b0:0c:00' mac_saddr='00:0c:29:ab:58:04' family='2' src_ipn='192.168.200.51' dst_ipn='192.168.200.52' srcport='88' dstport='49449' packets='4' out_of_order_count='1' len='406' />
+    </fileobject>
+    <fileobject>
+      <filename>192.168.200.052.49450-192.168.200.051.00088</filename>
+      <filesize>289</filesize>
+      <tcpflow startime='2024-08-29T17:14:41.833951Z' endtime='2024-08-29T17:14:41.882653Z' mac_daddr='00:0c:29:ab:58:04' mac_saddr='00:0c:29:b0:0c:00' family='2' src_ipn='192.168.200.52' dst_ipn='192.168.200.51' srcport='49450' dstport='88' packets='4' len='517' />
+    </fileobject>
+    <fileobject>
+      <filename>192.168.200.051.00088-192.168.200.052.49450</filename>
+      <filesize>137</filesize>
+      <tcpflow startime='2024-08-29T17:14:41.834114Z' endtime='2024-08-29T17:14:41.882951Z' mac_daddr='00:0c:29:b0:0c:00' mac_saddr='00:0c:29:ab:58:04' family='2' src_ipn='192.168.200.51' dst_ipn='192.168.200.52' srcport='88' dstport='49450' packets='5' out_of_order_count='2' len='431' />
+    </fileobject>
+    <fileobject>
+      <filename>fe80::f786:f9ae:ab5d:43c9.49448-fe80::dcf6:cc94:c4f2:82c2.00445</filename>
+      <filesize>295</filesize>
+      <tcpflow startime='2024-08-29T17:14:41.798251Z' endtime='2024-08-29T17:14:41.891739Z' mac_daddr='a4:97:b1:f0:c8:fb' mac_saddr='00:0c:29:b0:0c:00' family='10' src_ipn='fe80::f786:f9ae:ab5d:43c9' dst_ipn='fe80::dcf6:cc94:c4f2:82c2' srcport='49448' dstport='445' packets='6' len='751' />
+    </fileobject>
+    <fileobject>
+      <filename>fe80::f786:f9ae:ab5d:43c9.49451-fe80::dcf6:cc94:c4f2:82c2.00445</filename>
+      <filesize>1013</filesize>
+      <tcpflow startime='2024-08-29T17:14:43.687432Z' endtime='2024-08-29T17:14:43.718260Z' mac_daddr='a4:97:b1:f0:c8:fb' mac_saddr='00:0c:29:b0:0c:00' family='10' src_ipn='fe80::f786:f9ae:ab5d:43c9' dst_ipn='fe80::dcf6:cc94:c4f2:82c2' srcport='49451' dstport='445' packets='6' len='1469' />
+    </fileobject>
+    <fileobject>
+      <filename>fe80::f786:f9ae:ab5d:43c9.49452-fe80::dcf6:cc94:c4f2:82c2.00445</filename>
+      <filesize>1013</filesize>
+      <tcpflow startime='2024-08-29T17:14:43.733719Z' endtime='2024-08-29T17:14:43.750556Z' mac_daddr='a4:97:b1:f0:c8:fb' mac_saddr='00:0c:29:b0:0c:00' family='10' src_ipn='fe80::f786:f9ae:ab5d:43c9' dst_ipn='fe80::dcf6:cc94:c4f2:82c2' srcport='49452' dstport='445' packets='6' len='1469' />
+    </fileobject>
+    <fileobject>
+      <filename>192.168.200.095.00443-192.168.100.149.45780</filename>
+      <filesize>6</filesize>
+      <tcpflow startime='2024-08-29T17:14:29.977036Z' endtime='2024-08-29T17:14:29.977036Z' mac_daddr='76:ac:b9:3a:1e:56' mac_saddr='90:1b:0e:63:a2:ff' family='2' src_ipn='192.168.200.95' dst_ipn='192.168.100.149' srcport='443' dstport='45780' packets='1' len='60' />
+    </fileobject>
+    <fileobject>
+      <filename>104.110.012.233.00443-192.168.200.052.49447</filename>
+      <filesize>7092</filesize>
+      <tcpflow startime='2024-08-29T17:14:18.493291Z' endtime='2024-08-29T17:14:18.587695Z' mac_daddr='00:0c:29:b0:0c:00' mac_saddr='76:ac:b9:3a:1e:56' family='2' src_ipn='104.110.12.233' dst_ipn='192.168.200.52' srcport='443' dstport='49447' packets='10' out_of_order_count='2' len='7656' />
+    </fileobject>
+    <fileobject>
+      <filename>104.110.012.233.00443-192.168.200.052.49446</filename>
+      <filesize>6563</filesize>
+      <tcpflow startime='2024-08-29T17:14:18.304872Z' endtime='2024-08-29T17:14:18.378322Z' mac_daddr='00:0c:29:b0:0c:00' mac_saddr='76:ac:b9:3a:1e:56' family='2' src_ipn='104.110.12.233' dst_ipn='192.168.200.52' srcport='443' dstport='49446' packets='9' out_of_order_count='1' len='7067' />
+    </fileobject>
+    <fileobject>
+      <filename>fe80::dcf6:cc94:c4f2:82c2.00445-fe80::f786:f9ae:ab5d:43c9.49445</filename>
+      <filesize>654</filesize>
+      <tcpflow startime='2024-08-29T17:14:17.043284Z' endtime='2024-08-29T17:14:17.061478Z' mac_daddr='00:0c:29:b0:0c:00' mac_saddr='a4:97:b1:f0:c8:fb' family='10' src_ipn='fe80::dcf6:cc94:c4f2:82c2' dst_ipn='fe80::f786:f9ae:ab5d:43c9' srcport='445' dstport='49445' packets='5' len='1036' />
+    </fileobject>
+    <fileobject>
+      <filesize>0</filesize>
+      <tcpflow startime='2024-08-29T17:14:16.951122Z' endtime='2024-08-29T17:14:16.952552Z' mac_daddr='00:0c:29:ab:58:04' mac_saddr='00:0c:29:b0:0c:00' family='2' src_ipn='192.168.200.52' dst_ipn='192.168.200.51' srcport='49443' dstport='88' packets='3' len='174' />
+    </fileobject>
+    <fileobject>
+      <filename>fe80::dcf6:cc94:c4f2:82c2.00445-fe80::f786:f9ae:ab5d:43c9.49440</filename>
+      <filesize>654</filesize>
+      <tcpflow startime='2024-08-29T17:14:16.573556Z' endtime='2024-08-29T17:14:16.587811Z' mac_daddr='00:0c:29:b0:0c:00' mac_saddr='a4:97:b1:f0:c8:fb' family='10' src_ipn='fe80::dcf6:cc94:c4f2:82c2' dst_ipn='fe80::f786:f9ae:ab5d:43c9' srcport='445' dstport='49440' packets='5' len='1036' />
+    </fileobject>
+    <fileobject>
+      <filename>fe80::dcf6:cc94:c4f2:82c2.00445-fe80::f786:f9ae:ab5d:43c9.49438</filename>
+      <filesize>654</filesize>
+      <tcpflow startime='2024-08-29T17:14:16.509766Z' endtime='2024-08-29T17:14:16.525292Z' mac_daddr='00:0c:29:b0:0c:00' mac_saddr='a4:97:b1:f0:c8:fb' family='10' src_ipn='fe80::dcf6:cc94:c4f2:82c2' dst_ipn='fe80::f786:f9ae:ab5d:43c9' srcport='445' dstport='49438' packets='5' len='1036' />
+    </fileobject>
+    <fileobject>
+      <filename>104.110.010.104.00443-192.168.200.052.49434</filename>
+      <filesize>6696</filesize>
+      <tcpflow startime='2024-08-29T17:14:14.665762Z' endtime='2024-08-29T17:14:14.726011Z' mac_daddr='00:0c:29:b0:0c:00' mac_saddr='76:ac:b9:3a:1e:56' family='2' src_ipn='104.110.10.104' dst_ipn='192.168.200.52' srcport='443' dstport='49434' packets='9' out_of_order_count='1' len='7200' />
+    </fileobject>
+    <fileobject>
+      <filename>fe80::dcf6:cc94:c4f2:82c2.00445-fe80::f786:f9ae:ab5d:43c9.49433</filename>
+      <filesize>654</filesize>
+      <tcpflow startime='2024-08-29T17:14:14.225490Z' endtime='2024-08-29T17:14:14.237969Z' mac_daddr='00:0c:29:b0:0c:00' mac_saddr='a4:97:b1:f0:c8:fb' family='10' src_ipn='fe80::dcf6:cc94:c4f2:82c2' dst_ipn='fe80::f786:f9ae:ab5d:43c9' srcport='445' dstport='49433' packets='5' len='1036' />
+    </fileobject>
+    <fileobject>
+      <filename>fe80::dcf6:cc94:c4f2:82c2.00445-fe80::f786:f9ae:ab5d:43c9.49432</filename>
+      <filesize>654</filesize>
+      <tcpflow startime='2024-08-29T17:14:14.182284Z' endtime='2024-08-29T17:14:14.205895Z' mac_daddr='00:0c:29:b0:0c:00' mac_saddr='a4:97:b1:f0:c8:fb' family='10' src_ipn='fe80::dcf6:cc94:c4f2:82c2' dst_ipn='fe80::f786:f9ae:ab5d:43c9' srcport='445' dstport='49432' packets='5' len='1036' />
+    </fileobject>
+    <fileobject>
+      <filename>195.200.072.082.00443-192.168.200.052.49429</filename>
+      <filesize>7209</filesize>
+      <tcpflow startime='2024-08-29T17:14:13.073596Z' endtime='2024-08-29T17:14:13.176743Z' mac_daddr='00:0c:29:b0:0c:00' mac_saddr='76:ac:b9:3a:1e:56' family='2' src_ipn='195.200.72.82' dst_ipn='192.168.200.52' srcport='443' dstport='49429' packets='15' out_of_order_count='3' len='8135' />
+    </fileobject>
+    <fileobject>
+      <filename>fe80::dcf6:cc94:c4f2:82c2.00445-fe80::f786:f9ae:ab5d:43c9.49452</filename>
+      <filesize>654</filesize>
+      <tcpflow startime='2024-08-29T17:14:43.737569Z' endtime='2024-08-29T17:14:43.749909Z' mac_daddr='00:0c:29:b0:0c:00' mac_saddr='a4:97:b1:f0:c8:fb' family='10' src_ipn='fe80::dcf6:cc94:c4f2:82c2' dst_ipn='fe80::f786:f9ae:ab5d:43c9' srcport='445' dstport='49452' packets='5' len='1036' />
+    </fileobject>
+    <fileobject>
+      <filename>192.168.200.052.49429-195.200.072.082.00443</filename>
+      <filesize>2367</filesize>
+      <tcpflow startime='2024-08-29T17:14:13.066634Z' endtime='2024-08-29T17:14:13.111637Z' mac_daddr='76:ac:b9:3a:1e:56' mac_saddr='00:0c:29:b0:0c:00' family='2' src_ipn='192.168.200.52' dst_ipn='195.200.72.82' srcport='49429' dstport='443' packets='10' len='1150' />
+    </fileobject>
+    <fileobject>
+      <filename>195.200.072.082.00443-192.168.200.052.49427</filename>
+      <filesize>4408</filesize>
+      <tcpflow startime='2024-08-29T17:14:11.961577Z' endtime='2024-08-29T17:14:12.005216Z' mac_daddr='00:0c:29:b0:0c:00' mac_saddr='76:ac:b9:3a:1e:56' family='2' src_ipn='195.200.72.82' dst_ipn='192.168.200.52' srcport='443' dstport='49427' packets='10' out_of_order_count='2' len='5058' />
+    </fileobject>
+    <fileobject>
+      <filename>195.200.072.082.00443-192.168.200.052.49428</filename>
+      <filesize>4408</filesize>
+      <tcpflow startime='2024-08-29T17:14:11.961577Z' endtime='2024-08-29T17:14:12.005216Z' mac_daddr='00:0c:29:b0:0c:00' mac_saddr='76:ac:b9:3a:1e:56' family='2' src_ipn='195.200.72.82' dst_ipn='192.168.200.52' srcport='443' dstport='49428' packets='10' out_of_order_count='2' len='5058' />
+    </fileobject>
+    <fileobject>
+      <filename>195.200.072.082.00443-192.168.200.052.49426</filename>
+      <filesize>232059</filesize>
+      <tcpflow startime='2024-08-29T17:14:11.957444Z' endtime='2024-08-29T17:14:13.073596Z' mac_daddr='00:0c:29:b0:0c:00' mac_saddr='76:ac:b9:3a:1e:56' family='2' src_ipn='195.200.72.82' dst_ipn='192.168.200.52' srcport='443' dstport='49426' packets='174' out_of_order_count='6' len='241503' />
+    </fileobject>
+    <fileobject>
+      <filename>192.168.200.052.49427-195.200.072.082.00443</filename>
+      <filesize>1877</filesize>
+      <tcpflow startime='2024-08-29T17:14:11.953198Z' endtime='2024-08-29T17:14:12.005254Z' mac_daddr='76:ac:b9:3a:1e:56' mac_saddr='00:0c:29:b0:0c:00' family='2' src_ipn='192.168.200.52' dst_ipn='195.200.72.82' srcport='49427' dstport='443' packets='7' len='466' />
+    </fileobject>
+    <fileobject>
+      <filename>192.168.200.052.49426-195.200.072.082.00443</filename>
+      <filesize>3312</filesize>
+      <tcpflow startime='2024-08-29T17:14:11.952150Z' endtime='2024-08-29T17:14:13.123995Z' mac_daddr='76:ac:b9:3a:1e:56' mac_saddr='00:0c:29:b0:0c:00' family='2' src_ipn='192.168.200.52' dst_ipn='195.200.72.82' srcport='49426' dstport='443' packets='43' len='3897' />
+    </fileobject>
+    <fileobject>
+      <filename>192.168.200.052.49434-104.110.010.104.00443</filename>
+      <filesize>675</filesize>
+      <tcpflow startime='2024-08-29T17:14:14.656062Z' endtime='2024-08-29T17:14:14.775858Z' mac_daddr='76:ac:b9:3a:1e:56' mac_saddr='00:0c:29:b0:0c:00' family='2' src_ipn='192.168.200.52' dst_ipn='104.110.10.104' srcport='49434' dstport='443' packets='7' len='1065' />
+    </fileobject>
+    <fileobject>
+      <filename>192.168.200.052.49422-192.168.200.051.49667</filename>
+      <filesize>2690</filesize>
+      <tcpflow startime='2024-08-29T17:14:10.956147Z' endtime='2024-08-29T17:14:41.026028Z' mac_daddr='00:0c:29:ab:58:04' mac_saddr='00:0c:29:b0:0c:00' family='2' src_ipn='192.168.200.52' dst_ipn='192.168.200.51' srcport='49422' dstport='49667' packets='9' len='1374' />
+    </fileobject>
+    <fileobject>
+      <filename>151.101.085.091.00443-192.168.200.052.49416</filename>
+      <filesize>138850</filesize>
+      <tcpflow startime='2024-08-29T17:13:55.643120Z' endtime='2024-08-29T17:14:40.935055Z' mac_daddr='00:0c:29:b0:0c:00' mac_saddr='76:ac:b9:3a:1e:56' family='2' src_ipn='151.101.85.91' dst_ipn='192.168.200.52' srcport='443' dstport='49416' packets='123' out_of_order_count='23' len='146596' />
+    </fileobject>
+    <fileobject>
+      <filename>192.168.200.052.49391-142.250.074.036.00443</filename>
+      <filesize>1894</filesize>
+      <tcpflow startime='2024-08-29T17:13:22.116866Z' endtime='2024-08-29T17:13:38.815853Z' mac_daddr='76:ac:b9:3a:1e:56' mac_saddr='00:0c:29:b0:0c:00' family='2' src_ipn='192.168.200.52' dst_ipn='142.250.74.36' srcport='49391' dstport='443' packets='6' len='410' />
+    </fileobject>
+    <fileobject>
+      <filename>192.168.200.052.49390-142.250.074.036.00443</filename>
+      <filesize>1830</filesize>
+      <tcpflow startime='2024-08-29T17:13:22.104639Z' endtime='2024-08-29T17:13:38.815727Z' mac_daddr='76:ac:b9:3a:1e:56' mac_saddr='00:0c:29:b0:0c:00' family='2' src_ipn='192.168.200.52' dst_ipn='142.250.74.36' srcport='49390' dstport='443' packets='6' len='410' />
+    </fileobject>
+    <fileobject>
+      <filename>034.149.169.035.00443-192.168.200.052.49405</filename>
+      <filesize>5392</filesize>
+      <tcpflow startime='2024-08-29T17:13:39.425545Z' endtime='2024-08-29T17:14:24.465718Z' mac_daddr='00:0c:29:b0:0c:00' mac_saddr='76:ac:b9:3a:1e:56' family='2' src_ipn='34.149.169.35' dst_ipn='192.168.200.52' srcport='443' dstport='49405' packets='13' out_of_order_count='2' len='6130' />
+    </fileobject>
+    <fileobject>
+      <filename>192.168.200.052.49411-151.101.085.091.00443</filename>
+      <filesize>2380</filesize>
+      <tcpflow startime='2024-08-29T17:13:53.202274Z' endtime='2024-08-29T17:14:38.259779Z' mac_daddr='76:ac:b9:3a:1e:56' mac_saddr='00:0c:29:b0:0c:00' family='2' src_ipn='192.168.200.52' dst_ipn='151.101.85.91' srcport='49411' dstport='443' packets='11' len='1198' />
+    </fileobject>
+    <fileobject>
+      <filename>fe80::dcf6:cc94:c4f2:82c2.00445-fe80::f786:f9ae:ab5d:43c9.49430</filename>
+      <filesize>894</filesize>
+      <tcpflow startime='2024-08-29T17:14:14.018794Z' endtime='2024-08-29T17:14:14.156060Z' mac_daddr='00:0c:29:b0:0c:00' mac_saddr='a4:97:b1:f0:c8:fb' family='10' src_ipn='fe80::dcf6:cc94:c4f2:82c2' dst_ipn='fe80::f786:f9ae:ab5d:43c9' srcport='445' dstport='49430' packets='7' len='1424' />
+    </fileobject>
+    <fileobject>
+      <filename>062.115.253.208.00443-192.168.200.052.49385</filename>
+      <filesize>25590</filesize>
+      <tcpflow startime='2024-08-29T17:13:19.353153Z' endtime='2024-08-29T17:14:06.396445Z' mac_daddr='00:0c:29:b0:0c:00' mac_saddr='76:ac:b9:3a:1e:56' family='2' src_ipn='62.115.253.208' dst_ipn='192.168.200.52' srcport='443' dstport='49385' packets='39' out_of_order_count='8' len='27768' />
+    </fileobject>
+    <fileobject>
+      <filename>192.168.200.052.49402-216.058.207.202.00443</filename>
+      <filesize>1807</filesize>
+      <tcpflow startime='2024-08-29T17:13:30.278657Z' endtime='2024-08-29T17:14:15.322874Z' mac_daddr='76:ac:b9:3a:1e:56' mac_saddr='00:0c:29:b0:0c:00' family='2' src_ipn='192.168.200.52' dst_ipn='216.58.207.202' srcport='49402' dstport='443' packets='6' len='411' />
+    </fileobject>
+    <fileobject>
+      <filename>142.250.074.036.00443-192.168.200.052.49390c1</filename>
+      <filesize>6</filesize>
+      <tcpflow startime='2024-08-29T17:13:38.821016Z' endtime='2024-08-29T17:13:38.821016Z' mac_daddr='00:0c:29:b0:0c:00' mac_saddr='76:ac:b9:3a:1e:56' family='2' src_ipn='142.250.74.36' dst_ipn='192.168.200.52' srcport='443' dstport='49390' packets='1' len='60' />
+    </fileobject>
+    <fileobject>
+      <filename>192.168.200.052.49386-204.079.197.203.00443</filename>
+      <filesize>12179</filesize>
+      <tcpflow startime='2024-08-29T17:13:19.424491Z' endtime='2024-08-29T17:14:07.119612Z' mac_daddr='76:ac:b9:3a:1e:56' mac_saddr='00:0c:29:b0:0c:00' family='2' src_ipn='192.168.200.52' dst_ipn='204.79.197.203' srcport='49386' dstport='443' packets='26' len='6696' />
+    </fileobject>
+    <fileobject>
+      <filename>192.168.200.052.49385-062.115.253.208.00443</filename>
+      <filesize>3114</filesize>
+      <tcpflow startime='2024-08-29T17:13:19.342650Z' endtime='2024-08-29T17:14:06.384646Z' mac_daddr='76:ac:b9:3a:1e:56' mac_saddr='00:0c:29:b0:0c:00' family='2' src_ipn='192.168.200.52' dst_ipn='62.115.253.208' srcport='49385' dstport='443' packets='20' len='2374' />
+    </fileobject>
+    <fileobject>
+      <filename>192.168.200.052.49384-204.079.197.203.00443</filename>
+      <filesize>2977</filesize>
+      <tcpflow startime='2024-08-29T17:13:19.339244Z' endtime='2024-08-29T17:14:04.433168Z' mac_daddr='76:ac:b9:3a:1e:56' mac_saddr='00:0c:29:b0:0c:00' family='2' src_ipn='192.168.200.52' dst_ipn='204.79.197.203' srcport='49384' dstport='443' packets='13' len='1950' />
+    </fileobject>
+    <fileobject>
+      <filename>fe80::dcf6:cc94:c4f2:82c2.00445-fe80::f786:f9ae:ab5d:43c9.49451</filename>
+      <filesize>654</filesize>
+      <tcpflow startime='2024-08-29T17:14:43.696096Z' endtime='2024-08-29T17:14:43.717121Z' mac_daddr='00:0c:29:b0:0c:00' mac_saddr='a4:97:b1:f0:c8:fb' family='10' src_ipn='fe80::dcf6:cc94:c4f2:82c2' dst_ipn='fe80::f786:f9ae:ab5d:43c9' srcport='445' dstport='49451' packets='5' len='1036' />
+    </fileobject>
+    <fileobject>
+      <filename>192.168.003.117.08009-192.168.200.052.49331</filename>
+      <filesize>20800</filesize>
+      <tcpflow startime='2024-08-29T17:13:11.862987Z' endtime='2024-08-29T17:14:44.898151Z' mac_daddr='00:0c:29:b0:0c:00' mac_saddr='76:ac:b9:3a:1e:56' family='2' src_ipn='192.168.3.117' dst_ipn='192.168.200.52' srcport='8009' dstport='49331' packets='70' len='24580' />
+    </fileobject>
+    <fileobject>
+      <filename>fe80::dcf6:cc94:c4f2:82c2.00445-fe80::f786:f9ae:ab5d:43c9.49435</filename>
+      <filesize>654</filesize>
+      <tcpflow startime='2024-08-29T17:14:16.379004Z' endtime='2024-08-29T17:14:16.420636Z' mac_daddr='00:0c:29:b0:0c:00' mac_saddr='a4:97:b1:f0:c8:fb' family='10' src_ipn='fe80::dcf6:cc94:c4f2:82c2' dst_ipn='fe80::f786:f9ae:ab5d:43c9' srcport='445' dstport='49435' packets='5' len='1036' />
+    </fileobject>
+    <fileobject>
+      <filename>192.168.200.057.42094-192.168.200.095.00443</filename>
+      <filesize>6312</filesize>
+      <tcpflow startime='2024-08-29T17:13:19.052667Z' endtime='2024-08-29T17:14:48.743190Z' mac_daddr='90:1b:0e:63:a2:ff' mac_saddr='a4:97:b1:f0:c8:fb' family='2' src_ipn='192.168.200.57' dst_ipn='192.168.200.95' srcport='42094' dstport='443' packets='14' len='7236' />
+    </fileobject>
+    <fileobject>
+      <filename>192.168.200.052.49447-104.110.012.233.00443</filename>
+      <filesize>875</filesize>
+      <tcpflow startime='2024-08-29T17:14:18.482650Z' endtime='2024-08-29T17:14:18.634669Z' mac_daddr='76:ac:b9:3a:1e:56' mac_saddr='00:0c:29:b0:0c:00' family='2' src_ipn='192.168.200.52' dst_ipn='104.110.12.233' srcport='49447' dstport='443' packets='8' len='1319' />
+    </fileobject>
+    <fileobject>
+      <filename>192.168.200.095.00443-192.168.200.057.50312</filename>
+      <filesize>5445589</filesize>
+      <tcpflow startime='2024-08-29T17:13:09.253973Z' endtime='2024-08-29T17:14:49.286658Z' mac_daddr='a4:97:b1:f0:c8:fb' mac_saddr='90:1b:0e:63:a2:ff' family='2' src_ipn='192.168.200.95' dst_ipn='192.168.200.57' srcport='443' dstport='50312' packets='5425' out_of_order_count='7' len='5885865' />
+    </fileobject>
+    <fileobject>
+      <filename>192.168.003.179.08009-192.168.200.052.49334</filename>
+      <filesize>20464</filesize>
+      <tcpflow startime='2024-08-29T17:13:11.863230Z' endtime='2024-08-29T17:14:44.898151Z' mac_daddr='00:0c:29:b0:0c:00' mac_saddr='76:ac:b9:3a:1e:56' family='2' src_ipn='192.168.3.179' dst_ipn='192.168.200.52' srcport='8009' dstport='49334' packets='72' len='24352' />
+    </fileobject>
+    <fileobject>
+      <filesize>0</filesize>
+      <tcpflow startime='2024-08-29T17:14:10.961758Z' endtime='2024-08-29T17:14:10.964555Z' mac_daddr='00:0c:29:ab:58:04' mac_saddr='00:0c:29:b0:0c:00' family='2' src_ipn='192.168.200.52' dst_ipn='192.168.200.51' srcport='49425' dstport='88' packets='4' len='228' />
+    </fileobject>
+    <fileobject>
+      <filename>192.168.200.095.00443-192.168.200.057.42094</filename>
+      <filesize>7028</filesize>
+      <tcpflow startime='2024-08-29T17:13:18.721371Z' endtime='2024-08-29T17:14:48.688331Z' mac_daddr='a4:97:b1:f0:c8:fb' mac_saddr='90:1b:0e:63:a2:ff' family='2' src_ipn='192.168.200.95' dst_ipn='192.168.200.57' srcport='443' dstport='42094' packets='16' len='8084' />
+    </fileobject>
+    <fileobject>
+      <filename>192.168.200.057.50312-192.168.200.095.00443</filename>
+      <filesize>98143</filesize>
+      <tcpflow startime='2024-08-29T17:13:09.131770Z' endtime='2024-08-29T17:14:49.309225Z' mac_daddr='90:1b:0e:63:a2:ff' mac_saddr='a4:97:b1:f0:c8:fb' family='2' src_ipn='192.168.200.57' dst_ipn='192.168.200.95' srcport='50312' dstport='443' packets='3053' out_of_order_count='13' len='300914' />
+    </fileobject>
+    <fileobject>
+      <filename>192.168.200.052.49383-204.079.197.239.00443</filename>
+      <filesize>2690</filesize>
+      <tcpflow startime='2024-08-29T17:13:18.427665Z' endtime='2024-08-29T17:14:48.494676Z' mac_daddr='76:ac:b9:3a:1e:56' mac_saddr='00:0c:29:b0:0c:00' family='2' src_ipn='192.168.200.52' dst_ipn='204.79.197.239' srcport='49383' dstport='443' packets='10' len='1144' />
+    </fileobject>
+    <fileobject>
+      <filename>204.079.197.203.00443-192.168.200.052.49384</filename>
+      <filesize>7215</filesize>
+      <tcpflow startime='2024-08-29T17:13:19.342488Z' endtime='2024-08-29T17:14:04.437608Z' mac_daddr='00:0c:29:b0:0c:00' mac_saddr='76:ac:b9:3a:1e:56' family='2' src_ipn='204.79.197.203' dst_ipn='192.168.200.52' srcport='443' dstport='49384' packets='19' out_of_order_count='7' len='9761' />
+    </fileobject>
+    <fileobject>
+      <filename>216.058.207.202.00443-192.168.200.052.49402</filename>
+      <filesize>6729</filesize>
+      <tcpflow startime='2024-08-29T17:13:30.281869Z' endtime='2024-08-29T17:14:15.328712Z' mac_daddr='00:0c:29:b0:0c:00' mac_saddr='76:ac:b9:3a:1e:56' family='2' src_ipn='216.58.207.202' dst_ipn='192.168.200.52' srcport='443' dstport='49402' packets='10' out_of_order_count='2' len='7305' />
+    </fileobject>
+    <fileobject>
+      <filename>192.168.003.225.08009-192.168.200.052.49332</filename>
+      <filesize>2200</filesize>
+      <tcpflow startime='2024-08-29T17:13:10.827221Z' endtime='2024-08-29T17:14:46.111183Z' mac_daddr='00:0c:29:b0:0c:00' mac_saddr='76:ac:b9:3a:1e:56' family='2' src_ipn='192.168.3.225' dst_ipn='192.168.200.52' srcport='8009' dstport='49332' packets='40' out_of_order_count='20' len='4480' />
+    </fileobject>
+    <fileobject>
+      <filename>151.101.085.091.00443-192.168.200.052.49411</filename>
+      <filesize>23452</filesize>
+      <tcpflow startime='2024-08-29T17:13:53.209513Z' endtime='2024-08-29T17:14:38.271347Z' mac_daddr='00:0c:29:b0:0c:00' mac_saddr='76:ac:b9:3a:1e:56' family='2' src_ipn='151.101.85.91' dst_ipn='192.168.200.52' srcport='443' dstport='49411' packets='26' out_of_order_count='4' len='24904' />
+    </fileobject>
+    <fileobject>
+      <filename>003.164.240.106.00443-192.168.200.052.49408</filename>
+      <filesize>110219</filesize>
+      <tcpflow startime='2024-08-29T17:13:52.033410Z' endtime='2024-08-29T17:14:37.186559Z' mac_daddr='00:0c:29:b0:0c:00' mac_saddr='76:ac:b9:3a:1e:56' family='2' src_ipn='3.164.240.106' dst_ipn='192.168.200.52' srcport='443' dstport='49408' packets='88' out_of_order_count='4' len='115019' />
+    </fileobject>
+    <fileobject>
+      <filename>192.168.200.052.49334-192.168.003.179.08009</filename>
+      <filesize>1760</filesize>
+      <tcpflow startime='2024-08-29T17:13:11.860292Z' endtime='2024-08-29T17:14:44.947992Z' mac_daddr='76:ac:b9:3a:1e:56' mac_saddr='00:0c:29:b0:0c:00' family='2' src_ipn='192.168.200.52' dst_ipn='192.168.3.179' srcport='49334' dstport='8009' packets='45' len='4190' />
+    </fileobject>
+    <fileobject>
+      <filename>151.101.085.091.00443-192.168.200.052.49413</filename>
+      <filesize>55305</filesize>
+      <tcpflow startime='2024-08-29T17:13:55.643120Z' endtime='2024-08-29T17:14:40.731843Z' mac_daddr='00:0c:29:b0:0c:00' mac_saddr='76:ac:b9:3a:1e:56' family='2' src_ipn='151.101.85.91' dst_ipn='192.168.200.52' srcport='443' dstport='49413' packets='50' out_of_order_count='7' len='59013' />
+    </fileobject>
+    <fileobject>
+      <filename>204.079.197.239.00443-192.168.200.052.49383</filename>
+      <filesize>806</filesize>
+      <tcpflow startime='2024-08-29T17:13:18.433177Z' endtime='2024-08-29T17:14:48.508344Z' mac_daddr='00:0c:29:b0:0c:00' mac_saddr='76:ac:b9:3a:1e:56' family='2' src_ipn='204.79.197.239' dst_ipn='192.168.200.52' srcport='443' dstport='49383' packets='13' out_of_order_count='4' len='1568' />
+    </fileobject>
+    <fileobject>
+      <filename>216.058.207.206.00443-192.168.200.052.49403</filename>
+      <filesize>8289</filesize>
+      <tcpflow startime='2024-08-29T17:13:32.102686Z' endtime='2024-08-29T17:14:17.154067Z' mac_daddr='00:0c:29:b0:0c:00' mac_saddr='76:ac:b9:3a:1e:56' family='2' src_ipn='216.58.207.206' dst_ipn='192.168.200.52' srcport='443' dstport='49403' packets='11' out_of_order_count='2' len='8919' />
+    </fileobject>
+    <fileobject>
+      <filename>192.168.200.095.00443-192.168.100.149.49702</filename>
+      <filesize>1004</filesize>
+      <tcpflow startime='2024-08-29T17:14:07.937051Z' endtime='2024-08-29T17:14:28.406032Z' mac_daddr='76:ac:b9:3a:1e:56' mac_saddr='90:1b:0e:63:a2:ff' family='2' src_ipn='192.168.200.95' dst_ipn='192.168.100.149' srcport='443' dstport='49702' packets='2' out_of_order_count='1' len='1130' />
+    </fileobject>
+    <fileobject>
+      <filename>192.168.200.052.49331-192.168.003.117.08009</filename>
+      <filesize>1760</filesize>
+      <tcpflow startime='2024-08-29T17:13:11.860167Z' endtime='2024-08-29T17:14:44.948013Z' mac_daddr='76:ac:b9:3a:1e:56' mac_saddr='00:0c:29:b0:0c:00' family='2' src_ipn='192.168.200.52' dst_ipn='192.168.3.117' srcport='49331' dstport='8009' packets='42' len='4028' />
+    </fileobject>
+    <fileobject>
+      <filename>192.168.200.052.49382-108.157.214.036.00443</filename>
+      <filesize>2640</filesize>
+      <tcpflow startime='2024-08-29T17:13:16.668668Z' endtime='2024-08-29T17:14:46.729057Z' mac_daddr='76:ac:b9:3a:1e:56' mac_saddr='00:0c:29:b0:0c:00' family='2' src_ipn='192.168.200.52' dst_ipn='108.157.214.36' srcport='49382' dstport='443' packets='12' len='1536' />
+    </fileobject>
+    <fileobject>
+      <filename>192.168.200.052.49446-104.110.012.233.00443</filename>
+      <filesize>875</filesize>
+      <tcpflow startime='2024-08-29T17:14:18.292397Z' endtime='2024-08-29T17:14:18.431537Z' mac_daddr='76:ac:b9:3a:1e:56' mac_saddr='00:0c:29:b0:0c:00' family='2' src_ipn='192.168.200.52' dst_ipn='104.110.12.233' srcport='49446' dstport='443' packets='8' len='1319' />
+    </fileobject>
+    <fileobject>
+      <filename>108.157.214.036.00443-192.168.200.052.49382</filename>
+      <filesize>6242</filesize>
+      <tcpflow startime='2024-08-29T17:13:16.671694Z' endtime='2024-08-29T17:14:46.734784Z' mac_daddr='00:0c:29:b0:0c:00' mac_saddr='76:ac:b9:3a:1e:56' family='2' src_ipn='108.157.214.36' dst_ipn='192.168.200.52' srcport='443' dstport='49382' packets='15' out_of_order_count='4' len='7112' />
+    </fileobject>
+    <fileobject>
+      <filename>192.168.200.052.49387-204.079.197.219.00443</filename>
+      <filesize>2564</filesize>
+      <tcpflow startime='2024-08-29T17:13:20.277879Z' endtime='2024-08-29T17:14:24.214171Z' mac_daddr='76:ac:b9:3a:1e:56' mac_saddr='00:0c:29:b0:0c:00' family='2' src_ipn='192.168.200.52' dst_ipn='204.79.197.219' srcport='49387' dstport='443' packets='9' len='1241' />
+    </fileobject>
+    <fileobject>
+      <filename>204.079.197.203.00443-192.168.200.052.49386</filename>
+      <filesize>30271</filesize>
+      <tcpflow startime='2024-08-29T17:13:19.427874Z' endtime='2024-08-29T17:14:07.123843Z' mac_daddr='00:0c:29:b0:0c:00' mac_saddr='76:ac:b9:3a:1e:56' family='2' src_ipn='204.79.197.203' dst_ipn='192.168.200.52' srcport='443' dstport='49386' packets='53' out_of_order_count='18' len='33265' />
+    </fileobject>
+    <fileobject>
+      <filename>fe80::dcf6:cc94:c4f2:82c2.00445-fe80::f786:f9ae:ab5d:43c9.49436</filename>
+      <filesize>654</filesize>
+      <tcpflow startime='2024-08-29T17:14:16.442653Z' endtime='2024-08-29T17:14:16.458357Z' mac_daddr='00:0c:29:b0:0c:00' mac_saddr='a4:97:b1:f0:c8:fb' family='10' src_ipn='fe80::dcf6:cc94:c4f2:82c2' dst_ipn='fe80::f786:f9ae:ab5d:43c9' srcport='445' dstport='49436' packets='5' len='1036' />
+    </fileobject>
+    <fileobject>
+      <filesize>0</filesize>
+      <tcpflow startime='2024-08-29T17:13:39.423515Z' endtime='2024-08-29T17:14:24.431595Z' mac_daddr='76:ac:b9:3a:1e:56' mac_saddr='00:0c:29:b0:0c:00' family='2' src_ipn='192.168.200.52' dst_ipn='34.149.169.35' srcport='49406' dstport='80' packets='3' violations='1' len='175' />
+    </fileobject>
+    <fileobject>
+      <filename>192.168.200.057.46748-192.168.200.095.00443</filename>
+      <filesize>2282</filesize>
+      <tcpflow startime='2024-08-29T17:13:29.050060Z' endtime='2024-08-29T17:14:48.719899Z' mac_daddr='90:1b:0e:63:a2:ff' mac_saddr='a4:97:b1:f0:c8:fb' family='2' src_ipn='192.168.200.57' dst_ipn='192.168.200.95' srcport='46748' dstport='443' packets='139' out_of_order_count='1' len='12683' />
+    </fileobject>
+    <fileobject>
+      <filename>fe80::dcf6:cc94:c4f2:82c2.00445-fe80::f786:f9ae:ab5d:43c9.49437</filename>
+      <filesize>654</filesize>
+      <tcpflow startime='2024-08-29T17:14:16.473151Z' endtime='2024-08-29T17:14:16.490167Z' mac_daddr='00:0c:29:b0:0c:00' mac_saddr='a4:97:b1:f0:c8:fb' family='10' src_ipn='fe80::dcf6:cc94:c4f2:82c2' dst_ipn='fe80::f786:f9ae:ab5d:43c9' srcport='445' dstport='49437' packets='5' len='1036' />
+    </fileobject>
+    <fileobject>
+      <filesize>0</filesize>
+      <tcpflow startime='2024-08-29T17:14:14.036968Z' endtime='2024-08-29T17:14:14.038247Z' mac_daddr='00:0c:29:ab:58:04' mac_saddr='00:0c:29:b0:0c:00' family='2' src_ipn='192.168.200.52' dst_ipn='192.168.200.51' srcport='49431' dstport='88' packets='3' len='174' />
+    </fileobject>
+    <fileobject>
+      <filename>192.168.200.095.00443-192.168.200.057.46748</filename>
+      <filesize>583497</filesize>
+      <tcpflow startime='2024-08-29T17:13:29.256253Z' endtime='2024-08-29T17:14:48.827054Z' mac_daddr='a4:97:b1:f0:c8:fb' mac_saddr='90:1b:0e:63:a2:ff' family='2' src_ipn='192.168.200.95' dst_ipn='192.168.200.57' srcport='443' dstport='46748' packets='469' out_of_order_count='2' len='677646' />
+    </fileobject>
+    <fileobject>
+      <filename>192.168.200.052.49403-216.058.207.206.00443</filename>
+      <filesize>1885</filesize>
+      <tcpflow startime='2024-08-29T17:13:32.098504Z' endtime='2024-08-29T17:14:17.150303Z' mac_daddr='76:ac:b9:3a:1e:56' mac_saddr='00:0c:29:b0:0c:00' family='2' src_ipn='192.168.200.52' dst_ipn='216.58.207.206' srcport='49403' dstport='443' packets='7' len='455' />
+    </fileobject>
+    <fileobject>
+      <filename>192.168.200.052.49409-034.111.220.203.00443</filename>
+      <filesize>2471</filesize>
+      <tcpflow startime='2024-08-29T17:13:52.905415Z' endtime='2024-08-29T17:14:40.494169Z' mac_daddr='76:ac:b9:3a:1e:56' mac_saddr='00:0c:29:b0:0c:00' family='2' src_ipn='192.168.200.52' dst_ipn='34.111.220.203' srcport='49409' dstport='443' packets='20' len='1737' />
+    </fileobject>
+    <fileobject>
+      <filename>142.250.074.036.00443-192.168.200.052.49391c1</filename>
+      <filesize>6</filesize>
+      <tcpflow startime='2024-08-29T17:13:38.821016Z' endtime='2024-08-29T17:13:38.821016Z' mac_daddr='00:0c:29:b0:0c:00' mac_saddr='76:ac:b9:3a:1e:56' family='2' src_ipn='142.250.74.36' dst_ipn='192.168.200.52' srcport='443' dstport='49391' packets='1' len='60' />
+    </fileobject>
+    <fileobject>
+      <filename>192.168.200.052.49405-034.149.169.035.00443</filename>
+      <filesize>2459</filesize>
+      <tcpflow startime='2024-08-29T17:13:39.422550Z' endtime='2024-08-29T17:14:24.462796Z' mac_daddr='76:ac:b9:3a:1e:56' mac_saddr='00:0c:29:b0:0c:00' family='2' src_ipn='192.168.200.52' dst_ipn='34.149.169.35' srcport='49405' dstport='443' packets='10' len='1290' />
+    </fileobject>
+    <fileobject>
+      <filename>151.101.085.091.00443-192.168.200.052.49407</filename>
+      <filesize>103392</filesize>
+      <tcpflow startime='2024-08-29T17:13:47.454511Z' endtime='2024-08-29T17:14:37.607389Z' mac_daddr='00:0c:29:b0:0c:00' mac_saddr='76:ac:b9:3a:1e:56' family='2' src_ipn='151.101.85.91' dst_ipn='192.168.200.52' srcport='443' dstport='49407' packets='90' out_of_order_count='7' len='108318' />
+    </fileobject>
+    <fileobject>
+      <filename>034.149.169.035.00080-192.168.200.052.49404</filename>
+      <filesize>191</filesize>
+      <tcpflow startime='2024-08-29T17:13:39.425546Z' endtime='2024-08-29T17:14:26.889908Z' mac_daddr='00:0c:29:b0:0c:00' mac_saddr='76:ac:b9:3a:1e:56' family='2' src_ipn='34.149.169.35' dst_ipn='192.168.200.52' srcport='80' dstport='49404' packets='4' out_of_order_count='1' len='437' />
+    </fileobject>
+    <fileobject>
+      <filename>192.168.200.052.49392-204.079.197.219.00443</filename>
+      <filesize>2564</filesize>
+      <tcpflow startime='2024-08-29T17:13:22.896310Z' endtime='2024-08-29T17:14:24.214286Z' mac_daddr='76:ac:b9:3a:1e:56' mac_saddr='00:0c:29:b0:0c:00' family='2' src_ipn='192.168.200.52' dst_ipn='204.79.197.219' srcport='49392' dstport='443' packets='9' len='1253' />
+    </fileobject>
+    <fileobject>
+      <filename>034.111.220.203.00443-192.168.200.052.49409</filename>
+      <filesize>92433</filesize>
+      <tcpflow startime='2024-08-29T17:13:52.909558Z' endtime='2024-08-29T17:14:40.499990Z' mac_daddr='00:0c:29:b0:0c:00' mac_saddr='76:ac:b9:3a:1e:56' family='2' src_ipn='34.111.220.203' dst_ipn='192.168.200.52' srcport='443' dstport='49409' packets='81' out_of_order_count='4' len='96855' />
+    </fileobject>
+    <fileobject>
+      <filesize>0</filesize>
+      <tcpflow startime='2024-08-29T17:13:39.429594Z' endtime='2024-08-29T17:14:24.435138Z' mac_daddr='00:0c:29:b0:0c:00' mac_saddr='76:ac:b9:3a:1e:56' family='2' src_ipn='34.149.169.35' dst_ipn='192.168.200.52' srcport='80' dstport='49406' packets='2' len='132' />
+    </fileobject>
+    <fileobject>
+      <filename>fe80::dcf6:cc94:c4f2:82c2.00445-fe80::f786:f9ae:ab5d:43c9.49439</filename>
+      <filesize>654</filesize>
+      <tcpflow startime='2024-08-29T17:14:16.546764Z' endtime='2024-08-29T17:14:16.561174Z' mac_daddr='00:0c:29:b0:0c:00' mac_saddr='a4:97:b1:f0:c8:fb' family='10' src_ipn='fe80::dcf6:cc94:c4f2:82c2' dst_ipn='fe80::f786:f9ae:ab5d:43c9' srcport='445' dstport='49439' packets='5' len='1036' />
+    </fileobject>
+    <fileobject>
+      <filename>194.014.242.006.00443-192.168.200.052.49410</filename>
+      <filesize>204702</filesize>
+      <tcpflow startime='2024-08-29T17:13:52.955943Z' endtime='2024-08-29T17:14:38.154433Z' mac_daddr='00:0c:29:b0:0c:00' mac_saddr='76:ac:b9:3a:1e:56' family='2' src_ipn='194.14.242.6' dst_ipn='192.168.200.52' srcport='443' dstport='49410' packets='152' out_of_order_count='2' len='212946' />
+    </fileobject>
+    <fileobject>
+      <filename>192.168.200.052.49407-151.101.085.091.00443</filename>
+      <filesize>2835</filesize>
+      <tcpflow startime='2024-08-29T17:13:47.451333Z' endtime='2024-08-29T17:14:37.603441Z' mac_daddr='76:ac:b9:3a:1e:56' mac_saddr='00:0c:29:b0:0c:00' family='2' src_ipn='192.168.200.52' dst_ipn='151.101.85.91' srcport='49407' dstport='443' packets='20' len='2170' />
+    </fileobject>
+    <fileobject>
+      <filename>192.168.200.052.49408-003.164.240.106.00443</filename>
+      <filesize>2494</filesize>
+      <tcpflow startime='2024-08-29T17:13:52.030046Z' endtime='2024-08-29T17:14:37.181687Z' mac_daddr='76:ac:b9:3a:1e:56' mac_saddr='00:0c:29:b0:0c:00' family='2' src_ipn='192.168.200.52' dst_ipn='3.164.240.106' srcport='49408' dstport='443' packets='23' len='2017' />
+    </fileobject>
+    <fileobject>
+      <filename>192.168.200.052.49410-194.014.242.006.00443</filename>
+      <filesize>2642</filesize>
+      <tcpflow startime='2024-08-29T17:13:52.953028Z' endtime='2024-08-29T17:14:38.134879Z' mac_daddr='76:ac:b9:3a:1e:56' mac_saddr='00:0c:29:b0:0c:00' family='2' src_ipn='192.168.200.52' dst_ipn='194.14.242.6' srcport='49410' dstport='443' packets='33' len='2555' />
+    </fileobject>
+    <fileobject>
+      <filename>192.168.200.052.49412-204.079.197.239.00443</filename>
+      <filesize>2460</filesize>
+      <tcpflow startime='2024-08-29T17:13:55.613955Z' endtime='2024-08-29T17:14:40.650332Z' mac_daddr='76:ac:b9:3a:1e:56' mac_saddr='00:0c:29:b0:0c:00' family='2' src_ipn='192.168.200.52' dst_ipn='204.79.197.239' srcport='49412' dstport='443' packets='10' len='1189' />
+    </fileobject>
+    <fileobject>
+      <filename>204.079.197.239.00443-192.168.200.052.49412</filename>
+      <filesize>6682</filesize>
+      <tcpflow startime='2024-08-29T17:13:55.618137Z' endtime='2024-08-29T17:14:40.654161Z' mac_daddr='00:0c:29:b0:0c:00' mac_saddr='76:ac:b9:3a:1e:56' family='2' src_ipn='204.79.197.239' dst_ipn='192.168.200.52' srcport='443' dstport='49412' packets='17' out_of_order_count='5' len='7654' />
+    </fileobject>
+    <fileobject>
+      <filename>fe80::dcf6:cc94:c4f2:82c2.00445-fe80::f786:f9ae:ab5d:43c9.49444</filename>
+      <filesize>654</filesize>
+      <tcpflow startime='2024-08-29T17:14:17.005907Z' endtime='2024-08-29T17:14:17.028580Z' mac_daddr='00:0c:29:b0:0c:00' mac_saddr='a4:97:b1:f0:c8:fb' family='10' src_ipn='fe80::dcf6:cc94:c4f2:82c2' dst_ipn='fe80::f786:f9ae:ab5d:43c9' srcport='445' dstport='49444' packets='5' len='1036' />
+    </fileobject>
+    <fileobject>
+      <filename>192.168.200.052.49381-023.049.024.214.00443</filename>
+      <filesize>2435</filesize>
+      <tcpflow startime='2024-08-29T17:13:09.554031Z' endtime='2024-08-29T17:13:09.617166Z' mac_daddr='76:ac:b9:3a:1e:56' mac_saddr='00:0c:29:b0:0c:00' family='2' src_ipn='192.168.200.52' dst_ipn='23.49.24.214' srcport='49381' dstport='443' packets='10' len='1286' />
+    </fileobject>
+    <fileobject>
+      <filename>192.168.200.052.49332-192.168.003.225.08009</filename>
+      <filesize>2200</filesize>
+      <tcpflow startime='2024-08-29T17:13:10.824121Z' endtime='2024-08-29T17:14:46.166454Z' mac_daddr='76:ac:b9:3a:1e:56' mac_saddr='00:0c:29:b0:0c:00' family='2' src_ipn='192.168.200.52' dst_ipn='192.168.3.225' srcport='49332' dstport='8009' packets='40' len='4360' />
+    </fileobject>
+    <fileobject>
+      <filename>192.168.200.052.49404-034.149.169.035.00080</filename>
+      <filesize>462</filesize>
+      <tcpflow startime='2024-08-29T17:13:39.421493Z' endtime='2024-08-29T17:14:26.884823Z' mac_daddr='76:ac:b9:3a:1e:56' mac_saddr='00:0c:29:b0:0c:00' family='2' src_ipn='192.168.200.52' dst_ipn='34.149.169.35' srcport='49404' dstport='80' packets='5' len='745' />
+    </fileobject>
+    <fileobject>
+      <filename>192.168.200.052.49413-151.101.085.091.00443</filename>
+      <filesize>2567</filesize>
+      <tcpflow startime='2024-08-29T17:13:55.638397Z' endtime='2024-08-29T17:14:40.728485Z' mac_daddr='76:ac:b9:3a:1e:56' mac_saddr='00:0c:29:b0:0c:00' family='2' src_ipn='192.168.200.52' dst_ipn='151.101.85.91' srcport='49413' dstport='443' packets='17' len='1683' />
+    </fileobject>
+    <fileobject>
+      <filename>fe80::dcf6:cc94:c4f2:82c2.00445-fe80::f786:f9ae:ab5d:43c9.49448</filename>
+      <filesize>480</filesize>
+      <tcpflow startime='2024-08-29T17:14:41.803212Z' endtime='2024-08-29T17:14:41.818938Z' mac_daddr='00:0c:29:b0:0c:00' mac_saddr='a4:97:b1:f0:c8:fb' family='10' src_ipn='fe80::dcf6:cc94:c4f2:82c2' dst_ipn='fe80::f786:f9ae:ab5d:43c9' srcport='445' dstport='49448' packets='4' len='788' />
+    </fileobject>
+    <fileobject>
+      <filename>192.168.200.052.49428-195.200.072.082.00443</filename>
+      <filesize>1813</filesize>
+      <tcpflow startime='2024-08-29T17:14:11.953618Z' endtime='2024-08-29T17:14:12.046603Z' mac_daddr='76:ac:b9:3a:1e:56' mac_saddr='00:0c:29:b0:0c:00' family='2' src_ipn='192.168.200.52' dst_ipn='195.200.72.82' srcport='49428' dstport='443' packets='8' len='520' />
+    </fileobject>
+    <fileobject>
+      <filename>192.168.200.052.49416-151.101.085.091.00443</filename>
+      <filesize>4302</filesize>
+      <tcpflow startime='2024-08-29T17:13:55.639746Z' endtime='2024-08-29T17:14:40.931558Z' mac_daddr='76:ac:b9:3a:1e:56' mac_saddr='00:0c:29:b0:0c:00' family='2' src_ipn='192.168.200.52' dst_ipn='151.101.85.91' srcport='49416' dstport='443' packets='47' len='5070' />
+    </fileobject>
+  </configuration>
+  <summary />
+  <open_fds_at_end>84</open_fds_at_end>
+  <max_open_flows>87</max_open_flows>
+  <total_flows>139</total_flows>
+  <flow_map_size>89</flow_map_size>
+  <total_packets>11313</total_packets>
+  <rusage>
+    <utime>0.016470</utime>
+    <stime>0.033005</stime>
+    <maxrss>11836</maxrss>
+    <minflt>1436</minflt>
+    <majflt>0</majflt>
+    <nswap>0</nswap>
+    <inblock>0</inblock>
+    <oublock>15496</oublock>
+    <clocktime>0.039839</clocktime>
+  </rusage>
+</dfxml>

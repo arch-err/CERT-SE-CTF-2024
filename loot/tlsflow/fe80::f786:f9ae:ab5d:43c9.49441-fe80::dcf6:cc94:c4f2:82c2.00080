@@ -1,0 +1,6 @@
+OPTIONS /share HTTP/1.1
+Connection: Keep-Alive
+User-Agent: Microsoft-WebDAV-MiniRedir/10.0.19045
+translate: f
+Host: dcc01
+

