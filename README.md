@@ -1,3 +1,5 @@
+![logo](logo.png)
+
 # CERT-SE CTF 2024
 *Antar du vår utmaning?*
 
