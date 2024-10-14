@@ -1,18 +1,20 @@
 ![logo](logo.png)
 
 # CERT-SE CTF 2024
-*Antar du vår utmaning?*
+- https://www.cert.se/2024/09/cert-se-ctf2024.html
 
-*Även i år har CERT-SE en utmaning (CTF) under cybersäkerhetsmånaden. I år är temat utpressningsangrepp (ransomware). Utmaningen vänder sig till alla med it-säkerhetsintresse.*
+## Description
+*Again this year CERT-SE has put together a CTF during the cyber security month. This year’s theme is ransomware. The challenge is aimed at anyone with an interest in IT security.*
 
-*<scenario>*
-*En fiktiv organisation har blivit drabbad av ett utpressningsangrepp. De har lyckats få igång en reservkanal för kommunikation och har lyckats komma åt delar av sin infrastruktur.*
+```html
+<scenario>
+A fictional organisation has been affected by a ransomware attack. It has been successful in setting up an emergency channel for communication and has access to parts of its infrastructure.
 
-*Kan du hitta alla flaggorna?*
-*</scenario>*
+Can you find all the flags?
+</scenario>
+```
 
-*I .zip-filen nedan finns en nätverksdump (PCAP) som innehåller totalt nio stycken flaggor. Åtta av dessa har formatet ”CTF[STRING]” och en har formatet [STRING] (lägg till CTF framför så svaret blir i formatet CTF[STRING]). Allt för att lösa flaggorna finns i nätverksdumpen och kan göras utan koppling till internet. Det finns alltså inga ledtrådar i eventuella referenser online.*
-
+*In the attached .zip file there is a network dump (PCAP) that contains a total of nine flags. Eight of these have the format “CTF[STRING]” and one has the format [STRING] (please add CTF in your answer, i.e. CTF[STRING]). Everything you need in order to find the flags is included in the network dump and can be solved without connection to the internet. You will not find any clues in any online references.*
 
 # Challenges
 
